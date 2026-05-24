@@ -1,0 +1,35 @@
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+
+Preamble
+
+CERN has developed this licence to promote collaboration among hardware
+engineers and to provide a legal tool which supports the freedom to use,
+study, modify, share and distribute hardware designs and products based on
+those designs. This licence is derived from the Open SourceInitiative (OSI)
+approved CERN Open Hardware Licence - Permissive and complies with the
+Open Source Definition. It was created for users of hardware designs who
+require that all downstream modifications are shared in the same way.
+
+You are free to:
+
+- use this work for any purpose,
+- study how it works,
+- modify it,
+- share it with others,
+- share modifications with others.
+
+Under these conditions:
+
+- You must provide - without charge - all source files, documentation, and
+circuit board designs for any hardware you create or manufacture based on
+this work to anyone who asks.
+
+- You must provide under the same licence anything you create that
+incorporates or is derived from this work, whether modified or not.
+
+- You must ensure that recipients are aware of these conditions.
+
+Full licence text: https://ohwr.org/cern_ohl_s_v2.txt
+
+This is a summary of the licence terms. The full legal text is available
+at the link above.

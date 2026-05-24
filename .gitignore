@@ -1,0 +1,36 @@
+# FreeCAD backup files
+*.FCBak
+*.FCStd1
+*.FCStd2
+*.FCStd3
+*.FCStd4
+*.FCStd5
+
+# FreeCAD cache/lock
+*.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Render outputs (keep assets, ignore large renders)
+renders/*.png
+renders/*.jpg
+!renders/.gitkeep
+
+# Export variants (user-generated)
+exports/*.stl
+exports/*.3mf
+exports/*.obj
+!exports/.gitkeep
+
+# CAD backups
+cad/*.bak
+cad/*.tmp
