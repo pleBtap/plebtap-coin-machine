@@ -2,7 +2,15 @@
 
 A vending machine that dispenses physical coin-like discs — paid via integrated ZapBox.
 
-![Preview](assets/preview.png)
+| Front View | Back Side |
+|:---:|:---:|
+| ![Front View](assets/plebtap-coin-machine-front1.png) | ![Back Side](assets/plebtap-coin-machine-backside.png) |
+
+## See it in Action
+
+![Mechanism Video](assets/plebtap-coin-machine.mp4)
+*(Note: Some browsers might need a direct click on the file in the assets folder to play MP4)*
+
 
 ## What is this?
 
