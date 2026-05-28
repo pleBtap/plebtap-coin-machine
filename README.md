@@ -2,19 +2,50 @@
 
 A vending machine that dispenses physical coin-like discs — paid via integrated ZapBox.
 
-| Front View | Back Side |
-|:---:|:---:|
-| ![Front View](assets/plebtap-coin-machine-front1.png) | ![Back Side](assets/plebtap-coin-machine-backside.png) |
-
-## See it in Action
-
-![Mechanism Video](assets/plebtap-coin-machine.mp4)
-*(Note: Some browsers might need a direct click on the file in the assets folder to play MP4)*
-
+![Preview](assets/preview.png)
 
 ## What is this?
 
 The Plebtap Coin Machine is a **mechanical/electronic vending machine** designed to dispense plastic discs that resemble coins or tokens. Payment is handled through an integrated **ZapBox** device.
+
+## About ZapBox
+
+![ZapBox Example](assets/zapbox-example.png)
+
+The [ZapBox](https://zapbox.space) is the essential Bitcoin Lightning payment device that powers the Coin Machine. Created by [Axel Hamburch](https://github.com/AxelHamburch) — Bitcoiner, Lightning enthusiast, and open-source hardware advocate.
+
+**How it works:**
+
+1. **QR Display** — The integrated screen shows a Lightning invoice (LNURL)
+2. **Payment** — User scans with any Lightning wallet and pays
+3. **Verification** — Payment is verified via [LNbits](https://github.com/lnbits) server
+4. **Trigger** — WebSocket signal sent to the ESP32 microcontroller
+5. **Dispense** — Relay activates and the machine dispenses your coin/token
+
+**Key Features:**
+
+- ⚡ **Zero-config setup** — Works out of the box with LNbits
+- 📱 **Multiple payment options** — Lightning QR, NFC Bolt Card, or NTAG21x tags
+- 🔌 **Modular hardware** — LilyGo T-Display-S3, ESP32 headless, or ESP32-C3 variants
+- 🔧 **Open source** — Full transparency, verifiable code
+- 💡 **Proven reliability** — Battle-tested at Bitcoin meetups and events
+
+**Hardware Variants:**
+
+| Variant | Display | Use Case |
+|---------|---------|----------|
+| T-Display-S3 | 170×320 TFT | Full-featured with QR display |
+| ESP32 Headless | Status LED only | Hidden installations |
+| ESP32-C3 | Status LED | Ultra-compact, low power |
+
+**Required Components:**
+
+| Component | Purpose | Link |
+|-----------|---------|------|
+| **ZapBox** | Payment device & relay control | [zapbox.space](https://zapbox.space) / [GitHub](https://github.com/AxelHamburch/ZapBox) |
+| **LNbits** | Lightning backend & LNURLp management | [lnbits.com](https://lnbits.com) / [GitHub](https://github.com/lnbits/lnbits) |
+
+> 💡 **Both are essential** — Without the ZapBox, no payment verification. Without LNbits, no Lightning invoices. The mechanical dispensing mechanism is triggered *only* after successful ZapBox-verified LNbits payment.
 
 Perfect for:
 - Bitcoin events & meetups
