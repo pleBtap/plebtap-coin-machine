@@ -4,6 +4,27 @@ A vending machine that dispenses physical coin-like discs — paid via integrate
 
 ![Preview](assets/preview.png)
 
+## 📷 Projektansichten
+
+### Frontansichten
+![Front 1](assets/plebtap-coin-machine-front1.png)
+![Front 2](assets/plebtap-coin-machine-front2.png)
+
+### Rückseite
+![Backside](assets/plebtap-coin-machine-backside.png)
+
+### Elektronik-Verkabelung
+![Wiring](assets/electronics_wiring.jpg)
+
+### Preview
+![Preview](assets/preview.png)
+
+### Zapbox Beispiel
+![Zapbox Example](assets/zapbox-example.png)
+
+### Video
+[Video ansehen](assets/plebtap-coin-machine.mp4)
+
 ## What is this?
 
 The Plebtap Coin Machine is a **mechanical/electronic vending machine** designed to dispense plastic discs that resemble coins or tokens. Payment is handled through an integrated **ZapBox** device.
@@ -112,15 +133,7 @@ All 3D printed parts fit on a **256 × 256 mm** print bed (Bambu Lab P2S).
 | `*.stl` | STL files — ready for 3D printing |
 | `*.dxf` | DXF files — for laser cutting services |
 
-## Customization
 
-Open `plebtap-coin-machine.FCStd` in [FreeCAD](https://www.freecad.org/) and adjust:
-
-- **Machine dimensions** — height, width, depth
-- **Disc size** — diameter and thickness of output coins
-- **Hopper capacity** — how many discs it holds
-- **Servo mounting** — position and angle of MG996R servo
-- **ZapBox mount** — position of payment device
 
 ## Assembly Instructions
 
